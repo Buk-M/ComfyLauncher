@@ -1,0 +1,7 @@
+tools/
+config/
+config.json
+core/state/
+logs/
+*.tmp
+__pycache__/
