@@ -1,0 +1,62 @@
+{
+  "comfyui_path": "F:\\ComfyUI_BukM_0.39.2_portable\\ComfyUI",
+  "python_path": "F:\\ComfyUI_BukM_0.39.2_portable\\python_embeded\\python.exe",
+  "output_path": "",
+  "tools": {
+    "root": "F:\\ComfyUI_BukM_0.39.2_portable\\ComfyLauncher\\tools",
+    "git": "F:\\ComfyUI_BukM_0.39.2_portable\\ComfyLauncher\\tools\\git\\cmd\\git.exe",
+    "ffmpeg": "F:\\ComfyUI_BukM_0.39.2_portable\\ComfyLauncher\\tools\\ffmpeg\\bin",
+    "cmake": "F:\\ComfyUI_BukM_0.39.2_portable\\ComfyLauncher\\tools\\cmake\\bin",
+    "ninja": "F:\\ComfyUI_BukM_0.39.2_portable\\ComfyLauncher\\tools\\ninja",
+    "comfyui_api": "F:\\ComfyUI_BukM_0.39.2_portable\\ComfyLauncher\\tools\\comfyui-api"
+  },
+  "server": {
+    "ip": "127.0.0.1",
+    "port": 8188,
+    "protocol": "http",
+    "extra_args": "--enable-manager",
+    "cuda_device": "",
+    "auto_launch": true
+  },
+  "mirrors": {
+    "pip": "https://mirrors.cloud.tencent.com/pypi/simple/",
+    "hf": "",
+    "plugin_update": "githubfast.com"
+  },
+  "deepseek": {
+    "api_key": ""
+  },
+  "update": {
+    "manifest_url": ""
+  },
+  "modelpaths": {
+    "auto_map": true,
+    "base_path": "",
+    "folders": {},
+    "types": [
+      "checkpoints",
+      "diffusion_models",
+      "unet",
+      "text_encoders",
+      "clip",
+      "clip_vision",
+      "vae",
+      "loras",
+      "controlnet",
+      "upscale_models",
+      "style_models",
+      "model_patches"
+    ]
+  },
+  "version": {
+    "lock_enabled": false,
+    "lock_target": "",
+    "auto_check_update": false,
+    "patches_enabled": true
+  },
+  "ui": {
+    "theme": "dark",
+    "language": "zh"
+  },
+  "browser": ""
+}
