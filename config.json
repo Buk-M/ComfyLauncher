@@ -1,15 +1,8 @@
 {
-  "comfyui_path": "F:\\ComfyUI_BukM_0.39.2_portable\\ComfyUI",
-  "python_path": "F:\\ComfyUI_BukM_0.39.2_portable\\python_embeded\\python.exe",
+  "comfyui_path": "",
+  "python_path": "",
   "output_path": "",
-  "tools": {
-    "root": "F:\\ComfyUI_BukM_0.39.2_portable\\ComfyLauncher\\tools",
-    "git": "F:\\ComfyUI_BukM_0.39.2_portable\\ComfyLauncher\\tools\\git\\cmd\\git.exe",
-    "ffmpeg": "F:\\ComfyUI_BukM_0.39.2_portable\\ComfyLauncher\\tools\\ffmpeg\\bin",
-    "cmake": "F:\\ComfyUI_BukM_0.39.2_portable\\ComfyLauncher\\tools\\cmake\\bin",
-    "ninja": "F:\\ComfyUI_BukM_0.39.2_portable\\ComfyLauncher\\tools\\ninja",
-    "comfyui_api": "F:\\ComfyUI_BukM_0.39.2_portable\\ComfyLauncher\\tools\\comfyui-api"
-  },
+  "tools": {},
   "server": {
     "ip": "127.0.0.1",
     "port": 8188,
@@ -20,7 +13,7 @@
   },
   "mirrors": {
     "pip": "https://mirrors.cloud.tencent.com/pypi/simple/",
-    "hf": "",
+    "hf": "https://hf-mirror.com",
     "plugin_update": "githubfast.com"
   },
   "deepseek": {
